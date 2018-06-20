@@ -1,0 +1,85 @@
+.about-container {
+	margin-top: 5.5rem;
+	font-size:13px;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+#about-title {
+	color: #999898;
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	font-weight: 700;
+	font-size: .55rem;
+	margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-description {
+	color: #999898;
+	font-size: 1rem;
+	width: 90%;
+	margin: 1rem auto;
+	font-family: 'Gt America';
+}
+
+.directors-container {
+	margin-top: 64px;
+}
+
+#directors-title {
+	color: #999898;
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype');
+    text-transform: uppercase;
+	font-weight: 700;
+}
+
+.directors-row {
+	margin-top: 1.5rem;
+	font-size: 1.2rem;
+	font-family: 'Gt America Thin';
+}
+
+#eric {
+	margin-right:6.25rem;
+	display: inline-block;
+	color: #999898;
+	font-family: 'Gt America';
+}
+
+#edwin {
+	display: inline-block;
+	margin-right: 2rem;
+	color: #999898;
+	font-family: 'Gt America';
+}
+
+
+
+@media (min-width:768px) { 
+
+	.about-container {
+		margin-top: 5.5rem;
+		width: 90%;
+		text-align: center;
+	}
+	
+	
+	#about-title {
+		text-align: center;
+		margin-top: 50px;
+	}
+	
+	.about-description {
+		text-align: center;
+		margin-top: 25px;
+		width: 400px;
+	}
+	
+	
+	#directors-title {
+		color: #999898;
+		font-weight: 700;
+	}
+	}

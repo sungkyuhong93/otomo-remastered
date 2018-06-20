@@ -1,0 +1,132 @@
+h3 {
+	text-transform: uppercase;
+	margin: auto;
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Druk Wide Web';
+}
+
+.title {
+	margin-top: 43px;
+}
+
+.col-sm-12 {
+ 	height: 100vh;
+}
+
+.row {
+	height: 25vh;
+	color: white;
+	
+}
+
+.one {
+	background: url(../photos/video.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center right;
+	
+}
+
+.two {
+	background: url(../photos/audio.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center right;
+	
+}
+
+.three {
+	background: url(../photos/meta.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center right;
+
+}
+
+.four {
+	background: url(../photos/vr.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center right;
+	
+	
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-width: 900px) {
+	.col-sm-12 {
+		display: flex;
+		flex-direction: row;
+		flex-grow: 1;
+		height: 80vh;
+	}
+
+	.one {
+		background: url(../photos/video.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 100%;
+		flex: 1;
+	}
+	
+	
+	.two {
+		background: url(../photos/audio.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		flex: 1;
+		height: 100%;
+	}
+	
+	.three {
+		background: url(../photos/meta.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		flex: 1;
+		height: 100%;
+	}
+	
+	.four {
+		background: url(../photos/vr.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		flex: 1;
+		height: 100%;
+	}
+	
+	
+	.layer {
+		background-color: rgba(0, 0, 0, 0.3);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.row h3 {
+	visibility:hidden;
+	}
+	
+	.row:hover h3 {
+	visibility:visible;
+	}
+	
+	.headers {
+		margin-top: 13rem;
+	}
+	
+	}
+	

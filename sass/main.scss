@@ -1,0 +1,25 @@
+@import "pages/about";
+@import "pages/contact";
+@import "pages/home";
+@import "pages/services";
+@import "pages/video";
+@import "components/header";
+@import "components/footer";
+html {
+    box-sizing: border-box;
+  }
+  
+
+    body {
+    background-color: #e5e5e4;
+	min-height: 100vh;
+	display: flex;
+    flex-direction: column;
+   }
+
+   .main-content {
+       flex:1;
+       height: 100%;
+   }
+   
+ 

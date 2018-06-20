@@ -1,0 +1,331 @@
+.about-container {
+  margin-top: 5.5rem;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 5rem; }
+
+#about-title {
+  color: #999898;
+  font-family: 'Druk Wide Web';
+  src: url("DrukWide-Bold-Web.eot");
+  font-weight: 700;
+  font-size: .55rem;
+  margin-bottom: 20px;
+  text-transform: uppercase; }
+
+.about-description {
+  color: #999898;
+  font-size: 1rem;
+  width: 90%;
+  margin: 1rem auto;
+  font-family: 'Gt America'; }
+
+.directors-container {
+  margin-top: 64px; }
+
+#directors-title {
+  color: #999898;
+  font-family: 'Druk Wide Web';
+  src: url("DrukWide-Bold-Web.eot?#iefix") format("embedded-opentype");
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.directors-row {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-family: 'Gt America Thin'; }
+
+#eric {
+  margin-right: 6.25rem;
+  display: inline-block;
+  color: #999898;
+  font-family: 'Gt America'; }
+
+#edwin {
+  display: inline-block;
+  margin-right: 2rem;
+  color: #999898;
+  font-family: 'Gt America'; }
+
+@media (min-width: 768px) {
+  .about-container {
+    margin-top: 5.5rem;
+    width: 90%;
+    text-align: center; }
+  #about-title {
+    text-align: center;
+    margin-top: 50px; }
+  .about-description {
+    text-align: center;
+    margin-top: 25px;
+    width: 400px; }
+  #directors-title {
+    color: #999898;
+    font-weight: 700; } }
+
+.info {
+  margin-top: 5rem;
+  height: 100%;
+  margin-bottom: 5rem; }
+
+#address-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #999898;
+  font-size: .55rem;
+  font-family: 'Druk Wide Web'; }
+
+#business-title {
+  font-size: .55rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999898;
+  font-family: 'Druk Wide Web'; }
+
+.address {
+  text-align: center;
+  color: grey;
+  font-size: 1rem;
+  font-family: 'Gt America'; }
+
+.business {
+  text-align: center;
+  margin-top: 6rem;
+  color: grey;
+  font-size: 1rem;
+  font-family: 'Gt America'; }
+
+.business-list {
+  list-style: none;
+  margin-right: 38px;
+  margin-top: 16px; }
+
+.address-list {
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 16px; }
+
+h3 {
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Druk Wide Web'; }
+
+.title {
+  margin-top: 43px; }
+
+.col-sm-12 {
+  height: 100vh; }
+
+.row {
+  height: 25vh;
+  color: white; }
+
+.one {
+  background: url(../photos/video.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center right; }
+
+.two {
+  background: url(../photos/audio.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center right; }
+
+.three {
+  background: url(../photos/meta.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center right; }
+
+.four {
+  background: url(../photos/vr.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center right; }
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+@media (min-width: 900px) {
+  .col-sm-12 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 80vh; }
+  .one {
+    background: url(../photos/video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    flex: 1; }
+  .two {
+    background: url(../photos/audio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    height: 100%; }
+  .three {
+    background: url(../photos/meta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    height: 100%; }
+  .four {
+    background: url(../photos/vr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    height: 100%; }
+  .layer {
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .row h3 {
+    visibility: hidden; }
+  .row:hover h3 {
+    visibility: visible; }
+  .headers {
+    margin-top: 13rem; } }
+
+.videoWrapper {
+  display: none; }
+
+@media (min-width: 1000px) {
+  #indexContainer {
+    display: none; }
+  .videoWrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: block; }
+  .videoWrapper video {
+    /*object-fit: contain;*/
+    /*       object-fit: fill; */
+    object-fit: cover;
+    width: 100%;
+    height: 100%; } }
+
+.navbar-toggler:focus {
+  outline: none; }
+
+.main-header {
+  display: none; }
+
+.otomo-logo {
+  width: 200px;
+  margin-left: 22px;
+  margin-top: 14px;
+  padding-bottom: 16px; }
+
+.navbar {
+  background-color: black; }
+  .navbar-toggler {
+    margin-top: 1rem;
+    height: 37px;
+    margin-bottom: 5%;
+    margin-right: 19px;
+    padding-bottom: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none; }
+    .navbar-toggler-icon {
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em; }
+  .navbar-nav {
+    text-align: center;
+    padding-top: 70px;
+    height: 100vh;
+    width: 100%;
+    background-color: black; }
+
+.nav-item {
+  padding-top: 63px; }
+
+a {
+  color: white;
+  font-family: 'Druk Wide Web';
+  font-size: 15px;
+  letter-spacing: 1.3px;
+  font-style: normal;
+  font-stretch: normal;
+  text-transform: uppercase; }
+
+a:hover {
+  color: white;
+  text-decoration: underline; }
+
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white !important; }
+
+@media (min-width: 900px) {
+  .navbar {
+    display: none; }
+  .main-header {
+    background-color: black;
+    width: 100%;
+    height: 6rem;
+    display: block; }
+    .main-header-nav {
+      display: flex;
+      justify-content: space-between; }
+      .main-header-nav-items {
+        list-style: none;
+        display: flex;
+        margin-top: 2.2rem;
+        margin-right: 5rem; }
+    .main-header a {
+      padding-left: 1.5rem;
+      color: white;
+      font-family: 'Druk Wide Web';
+      font-weight: 700;
+      font-size: 8px;
+      letter-spacing: 1.3px;
+      text-transform: uppercase; }
+  .otomo-logo {
+    width: 15rem;
+    margin-top: 2.1rem; } }
+
+.main-footer {
+  background-color: black;
+  height: 4rem;
+  text-align: center;
+  width: 100%;
+  display: flex; }
+
+.footer-inner {
+  margin: auto;
+  color: white;
+  font-family: 'Druk Wide Web';
+  font-weight: 700;
+  font-size: 8px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  background-color: #e5e5e4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+.main-content {
+  flex: 1;
+  height: 100%; }
