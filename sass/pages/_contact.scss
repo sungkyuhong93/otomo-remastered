@@ -1,6 +1,6 @@
 
     .info {
-      margin-top: 5rem;
+      margin-top: 6rem;
       height: 100%;
       margin-bottom: 5rem;
   }
@@ -52,4 +52,24 @@
   }
   
   
-  
+  @media(min-width:2560px) {
+   .info {
+     margin-top: 9%;
+   }
+
+    #address-title {
+      font-size: 1.5rem;
+    }
+
+    #business-title {
+      font-size: 1.5rem;
+    }
+
+    .address {
+      font-size: 1.5rem;
+    }
+
+    .business {
+      font-size: 1.5rem;
+    }
+  }

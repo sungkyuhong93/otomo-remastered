@@ -1,8 +1,7 @@
 .about-container {
-	margin-top: 5.5rem;
-	font-size:13px;
+	margin-top: 10%;
 	text-align: center;
-	margin-bottom: 5rem;
+	width: 90%;
 }
 
 #about-title {
@@ -10,14 +9,14 @@
 	font-family: 'Druk Wide Web';
 	src: url('DrukWide-Bold-Web.eot');
 	font-weight: 700;
-	font-size: .55rem;
+	font-size: 10px;
 	margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 .about-description {
 	color: #999898;
-	font-size: 1rem;
+	font-size: 16px;
 	width: 90%;
 	margin: 1rem auto;
 	font-family: 'Gt America';
@@ -30,6 +29,7 @@
 #directors-title {
 	color: #999898;
 	font-family: 'Druk Wide Web';
+	font-size: 10px;
 	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype');
     text-transform: uppercase;
 	font-weight: 700;
@@ -37,7 +37,7 @@
 
 .directors-row {
 	margin-top: 1.5rem;
-	font-size: 1.2rem;
+	font-size: 16px;
 	font-family: 'Gt America Thin';
 }
 
@@ -57,29 +57,13 @@
 
 
 
-@media (min-width:768px) { 
+@media (min-width:900px) { 
 
 	.about-container {
-		margin-top: 5.5rem;
-		width: 90%;
-		text-align: center;
+		margin-top: 5%;
+		width: 40%;
 	}
 	
 	
-	#about-title {
-		text-align: center;
-		margin-top: 50px;
-	}
 	
-	.about-description {
-		text-align: center;
-		margin-top: 25px;
-		width: 400px;
-	}
-	
-	
-	#directors-title {
-		color: #999898;
-		font-weight: 700;
-	}
-	}
+}
